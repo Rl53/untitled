@@ -222,7 +222,7 @@ public class StartPanel extends JPanel implements ActionListener{
     clueField.setText("Type in the clue");
     clueField.setBackground(Color.RED);
   }
-  
+
   private void addToGame() {
     String type = "Celebrity";
     String answer = answerField.getText().trim();
